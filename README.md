@@ -27,6 +27,12 @@ Then you can start/stop the container with:
 
 And access it through `http://localhost:81`
 
+## Running the tests
+
+To run the test suite (Feature + Unit):
+
+    docker exec -it conference-room-status-app vendor/bin/phpunit
+
 ## TO-DOs
 
 Right now, all we've got is a Dashboard Controller that is called when acessing `/`. It's using a custom Google Calendar Service to fetch the daily schedule of the default room and returs it in json form, and that's it.
