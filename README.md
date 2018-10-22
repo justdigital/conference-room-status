@@ -8,9 +8,9 @@ After cloning the repo, you must execute the following commands:
 
     composer install
     npm install
-    php artisan key:generate
     chmod 0777 -R storage/
     cp .env.example .env
+    php artisan key:generate
 
 You must inform your Google Calendar ID (`GOOGLE_CALENDAR_ID`) in the .env file, and the integration e-mail must have read access to this calendar.
 
