@@ -31,4 +31,4 @@ And access it through `http://localhost:81`
 
 Right now, all we've got is a Dashboard Controller that is called when acessing `/`. It's using a custom Google Calendar Service to fetch the daily schedule of the default room and that's it.
 
-[] Finish To-do list
+- [ ] Finish To-do list
