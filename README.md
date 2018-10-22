@@ -1,6 +1,6 @@
 # Conference room status
 
-The Conference Room Status is a little project (WIP) that enables users to quickly find out wich conference rooms are currently available. The project was built using Laravel and integrates with Google Calendar to build the room schedule.
+The Conference Room Status is a little project (WIP) that enables users to quickly find out which conference rooms are currently available. The project was built using Laravel and integrates with Google Calendar to build the room schedule.
 
 ## Setting Up
 
