@@ -29,7 +29,7 @@ And access it through `http://localhost:81`
 
 ## TO-DOs
 
-Right now, all we've got is a Dashboard Controller that is called when acessing `/`. It's using a custom Google Calendar Service to fetch the daily schedule of the default room and that's it.
+Right now, all we've got is a Dashboard Controller that is called when acessing `/`. It's using a custom Google Calendar Service to fetch the daily schedule of the default room and returs it in json form, and that's it.
 
 ### Basic functionality:
 
