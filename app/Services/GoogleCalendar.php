@@ -4,8 +4,9 @@ namespace ConferenceRoomStatus\Services;
 
 use Carbon\Carbon as Carbon;
 use Spatie\GoogleCalendar\Event;
+use ConferenceRoomStatus\Services\Contracts\CalendarServiceInterface;
 
-class GoogleCalendar {
+class GoogleCalendar implements CalendarServiceInterface {
 
     /**
      * @var Spatie\GoogleCalendar\Event $event
@@ -23,6 +24,8 @@ class GoogleCalendar {
 
     /**
      * Get the daily Schedule of a Calendar
+     * 
+     * @param string|null $calendarId
      * 
      * @return array
      */

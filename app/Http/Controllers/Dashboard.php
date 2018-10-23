@@ -3,14 +3,14 @@
 namespace ConferenceRoomStatus\Http\Controllers;
 
 use Illuminate\Http\Request;
-use ConferenceRoomStatus\Services\GoogleCalendar;
+use ConferenceRoomStatus\Services\Contracts\CalendarServiceInterface;
 
 class Dashboard extends Controller
 {
 
     protected $calendarService;
 
-    public function __construct(GoogleCalendar $calendarService) {
+    public function __construct(CalendarServiceInterface $calendarService) {
         $this->calendarService = $calendarService;
     }
     
