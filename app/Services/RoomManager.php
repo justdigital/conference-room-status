@@ -2,7 +2,9 @@
 
 namespace ConferenceRoomStatus\Services;
 
-class RoomManager {
+use ConferenceRoomStatus\Services\Contracts\RoomManagerInterface;
+
+class RoomManager implements RoomManagerInterface {
 
     /**
      * @var array $rooms
