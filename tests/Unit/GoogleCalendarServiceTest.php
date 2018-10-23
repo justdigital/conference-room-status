@@ -10,7 +10,7 @@ class GoogleCalendarServiceTest extends TestCase
 {
 
     /**
-     * 
+     * @var ConferenceRoomStatus\Services\GoogleCalendar $calendarService
      */
     protected $calendarService;
 
